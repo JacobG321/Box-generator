@@ -27,7 +27,6 @@ const Form = () => {
                 <input type="text" name="color" value={color} onChange={handleColor}/>
                 <button type='submit'>Add</button>
             </form>
-            <p>{JSON.stringify(newColor)}</p>
 
             <div className={styles.boxes}>
                 {
